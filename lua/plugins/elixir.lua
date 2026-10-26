@@ -3,10 +3,8 @@ return {
     "neovim/nvim-lspconfig",
     opts = {
       servers = {
-        elixirls = {
-          -- you need to specify the executable command mannualy for elixir-ls
-          cmd = { "elixir-ls" },
-        },
+        elixirls = { enabled = false },
+        expert = {},
       },
     },
   },
